@@ -1,0 +1,1336 @@
+{
+  "source": "https://documenter.getpostman.com/view/1590333/2s8YzUw1vr",
+  "verifiedAt": "2026-11-21",
+  "initial": {
+    "calcResultsAvailable": true,
+    "chartData": {
+      "chartDate": "2026-11-04T12:00:00",
+      "chartName": "Chiron movement",
+      "coordSys": "G",
+      "elev": 0,
+      "houseSystemID": 1,
+      "jd": 0,
+      "lat": 0,
+      "lng": 0,
+      "tz": "UTC",
+      "version": 1,
+      "zodiacID": 100
+    },
+    "houseCusps": [],
+    "objects": [
+      {
+        "id": 15,
+        "lat": 0.13033783792721218,
+        "lng": 27.915643766383003,
+        "speed": -0.04502131510420376
+      }
+    ]
+  },
+  "charts": {
+    "2026-10-19T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-10-19T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.15127358025461893,
+          "lng": 28.655385015164843,
+          "speed": -0.046668874720784674
+        }
+      ]
+    },
+    "2026-10-03T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-10-03T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.171491765085092,
+          "lng": 29.382682002252878,
+          "speed": -0.04336409496480832
+        }
+      ]
+    },
+    "2026-09-17T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-09-17T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.190743075916681,
+          "lng": 30.02076091164183,
+          "speed": -0.03570782739161546
+        }
+      ]
+    },
+    "2026-09-01T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-09-01T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.20899927508524238,
+          "lng": 30.506801303653507,
+          "speed": -0.02455936243089636
+        }
+      ]
+    },
+    "2026-08-16T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-16T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.22623549600014017,
+          "lng": 30.795525170576433,
+          "speed": -0.011298529815104243
+        }
+      ]
+    },
+    "2026-07-31T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-07-31T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.24264977859428394,
+          "lng": 30.861868255334908,
+          "speed": 0.0029915126357357735
+        }
+      ]
+    },
+    "2026-08-08T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-08T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23454595198249956,
+          "lng": 30.85728411095936,
+          "speed": -0.004106498052116676
+        }
+      ]
+    },
+    "2026-08-04T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-04T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.2386217745603076,
+          "lng": 30.866657523353616,
+          "speed": -0.0005836716271480353
+        }
+      ]
+    },
+    "2026-08-02T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-02T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.2406411776579465,
+          "lng": 30.866051263831455,
+          "speed": 0.0011938658069102273
+        }
+      ]
+    },
+    "2026-08-03T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23963290603636575,
+          "lng": 30.86679878705835,
+          "speed": 0.00030217935146980733
+        }
+      ]
+    },
+    "2026-08-04T00:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-04T00:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23912770736614536,
+          "lng": 30.866838885364512,
+          "speed": -0.00014148471125398061
+        }
+      ]
+    },
+    "2026-08-03T18:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T18:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23938039729575059,
+          "lng": 30.866846564126924,
+          "speed": 8.014932424057067e-05
+        }
+      ]
+    },
+    "2026-08-03T21:00:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T21:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23925407512790178,
+          "lng": 30.86684965095272,
+          "speed": -3.070616969970734e-05
+        }
+      ]
+    },
+    "2026-08-03T19:30:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T19:30:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.2393172418927677,
+          "lng": 30.866849839807617,
+          "speed": 2.4714962211187244e-05
+        }
+      ]
+    },
+    "2026-08-03T20:15:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T20:15:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23928565993278758,
+          "lng": 30.866850178355936,
+          "speed": -2.9790578397085173e-06
+        }
+      ]
+    },
+    "2026-08-03T19:52:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T19:52:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.2393018021785799,
+          "lng": 30.866850113522034,
+          "speed": 1.1168053941366185e-05
+        }
+      ]
+    },
+    "2026-08-03T20:03:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T20:03:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23929408206644037,
+          "lng": 30.866850172757147,
+          "speed": 4.395927745389131e-06
+        }
+      ]
+    },
+    "2026-08-03T20:09:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T20:09:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23928987102537425,
+          "lng": 30.866850183254098,
+          "speed": 6.968809963425907e-07
+        }
+      ]
+    },
+    "2026-08-03T20:12:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T20:12:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.239287765485405,
+          "lng": 30.86685018272937,
+          "speed": -1.1539568185309649e-06
+        }
+      ]
+    },
+    "2026-08-03T20:10:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T20:10:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23928916917980192,
+          "lng": 30.86685018350685,
+          "speed": 7.348535113577512e-08
+        }
+      ]
+    },
+    "2026-08-03T20:11:00": {
+      "chartData": {
+        "chartDate": "2026-08-03T20:11:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.23928846733329903,
+          "lng": 30.86685018333193,
+          "speed": -5.32420293526045e-07
+        }
+      ]
+    },
+    "2026-11-20T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-11-20T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.10897578984775814,
+          "lng": 27.24223099273697,
+          "speed": -0.03841919502634938
+        }
+      ]
+    },
+    "2026-12-06T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-12-06T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.08748978687724,
+          "lng": 26.7084696137998,
+          "speed": -0.027735077350544462
+        }
+      ]
+    },
+    "2026-12-22T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-12-22T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.06623731070295592,
+          "lng": 26.371078178553045,
+          "speed": -0.014045424975145004
+        }
+      ]
+    },
+    "2027-01-07T12:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-07T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.045384923250752975,
+          "lng": 26.26508726940174,
+          "speed": 0.0009985074995427158
+        }
+      ]
+    },
+    "2026-12-30T12:00:00": {
+      "chartData": {
+        "chartDate": "2026-12-30T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.05573969562738995,
+          "lng": 26.28793209588636,
+          "speed": -0.006703970389060438
+        }
+      ]
+    },
+    "2027-01-03T12:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-03T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.05054196384636401,
+          "lng": 26.268787291018523,
+          "speed": -0.0028559786096201095
+        }
+      ]
+    },
+    "2027-01-05T12:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-05T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.047958332844914416,
+          "lng": 26.265009511675196,
+          "speed": -0.0009230001908113746
+        }
+      ]
+    },
+    "2027-01-06T12:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T12:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04667036361931722,
+          "lng": 26.26456800365103,
+          "speed": 3.947671032892678e-05
+        }
+      ]
+    },
+    "2027-01-06T00:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T00:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04731402989459979,
+          "lng": 26.264668445535076,
+          "speed": -0.00044134401421755496
+        }
+      ]
+    },
+    "2027-01-06T06:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T06:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04699211741662981,
+          "lng": 26.26458817305591,
+          "speed": -0.00020082545729374136
+        }
+      ]
+    },
+    "2027-01-06T09:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T09:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.046831220715940154,
+          "lng": 26.264570578849213,
+          "speed": -8.064125750973983e-05
+        }
+      ]
+    },
+    "2027-01-06T10:30:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T10:30:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04675078722151562,
+          "lng": 26.264567414298654,
+          "speed": -2.0587818387335596e-05
+        }
+      ]
+    },
+    "2027-01-06T11:15:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T11:15:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.046710574184665836,
+          "lng": 26.26456723979074,
+          "speed": 9.447048133187143e-06
+        }
+      ]
+    },
+    "2027-01-06T10:52:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T10:52:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04673112720601816,
+          "lng": 26.264567211738186,
+          "speed": -5.897151205422664e-06
+        }
+      ]
+    },
+    "2027-01-06T11:03:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T11:03:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04672129741984156,
+          "lng": 26.26456719456727,
+          "speed": 1.438618963311151e-06
+        }
+      ]
+    },
+    "2027-01-06T10:57:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T10:57:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.04672665910334087,
+          "lng": 26.264567196979435,
+          "speed": -2.5553280111239256e-06
+        }
+      ]
+    },
+    "2027-01-06T11:00:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T11:00:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.046723978255798965,
+          "lng": 26.264567193688002,
+          "speed": -5.585950085792792e-07
+        }
+      ]
+    },
+    "2027-01-06T11:01:00": {
+      "chartData": {
+        "chartDate": "2027-01-06T11:01:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.046723084642597404,
+          "lng": 26.264567193517664,
+          "speed": 1.1499232865572363e-07
+        }
+      ]
+    },
+    "2027-04-14T13:56:00": {
+      "chartData": {
+        "chartDate": "2027-04-14T13:56:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": -0.07100202861587734,
+          "lng": 29.997451693941546,
+          "speed": 0.06075979449251552
+        }
+      ]
+    },
+    "2027-04-14T15:56:00": {
+      "chartData": {
+        "chartDate": "2027-04-14T15:56:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": -0.07109943903120618,
+          "lng": 30.002515218398315,
+          "speed": 0.06076461243294179
+        }
+      ]
+    },
+    "2026-09-18T00:53:00": {
+      "chartData": {
+        "chartDate": "2026-09-18T00:53:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.1901133552643545,
+          "lng": 30.001507763245172,
+          "speed": -0.03602380145492897
+        }
+      ]
+    },
+    "2026-09-18T02:53:00": {
+      "chartData": {
+        "chartDate": "2026-09-18T02:53:00",
+        "chartName": "Chiron movement",
+        "coordSys": "G",
+        "elev": 0,
+        "houseSystemID": 1,
+        "jd": 0,
+        "lat": 0,
+        "lng": 0,
+        "tz": "UTC",
+        "version": 1,
+        "zodiacID": 100
+      },
+      "objects": [
+        {
+          "id": 15,
+          "lat": 0.19001550414515012,
+          "lng": 29.998503739381693,
+          "speed": -0.03607259178212486
+        }
+      ]
+    }
+  },
+  "ingresses": {
+    "true": {
+      "targetDate": "2027-01-07T11:00:30",
+      "results": [
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2019-2-18",
+          "exactJD": 2458532.8803738677,
+          "exactJD2": 0,
+          "exactLng": 0,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 1
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2026-9-18",
+          "exactJD": 2461301.5786458636,
+          "exactJD2": 0,
+          "exactLng": 30,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 2
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1984-4-11",
+          "exactJD": 2445801.679571071,
+          "exactJD2": 0,
+          "exactLng": 60,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 3
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1988-6-21",
+          "exactJD": 2447333.9027120383,
+          "exactJD2": 0,
+          "exactLng": 90,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 4
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1991-7-21",
+          "exactJD": 2448459.1622070125,
+          "exactJD2": 0,
+          "exactLng": 120,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 5
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1993-9-3",
+          "exactJD": 2449234.230414945,
+          "exactJD2": 0,
+          "exactLng": 150,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 6
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1995-9-9",
+          "exactJD": 2449970.10268578,
+          "exactJD2": 0,
+          "exactLng": 180,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 7
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1997-9-3",
+          "exactJD": 2450694.642290467,
+          "exactJD2": 0,
+          "exactLng": 210,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 8
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "1999-9-22",
+          "exactJD": 2451443.6053084303,
+          "exactJD2": 0,
+          "exactLng": 240,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 9
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2001-12-11",
+          "exactJD": 2452255.4618374775,
+          "exactJD2": 0,
+          "exactLng": 270,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 10
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2005-12-6",
+          "exactJD": 2453710.545141716,
+          "exactJD2": 0,
+          "exactLng": 300,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 11
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2011-2-8",
+          "exactJD": 2455601.330984441,
+          "exactJD2": 0,
+          "exactLng": 330,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 12
+        }
+      ]
+    },
+    "false": {
+      "targetDate": "2027-01-07T11:00:30",
+      "results": [
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2068-5-3",
+          "exactJD": 2476505.0896140332,
+          "exactJD2": 0,
+          "exactLng": 0,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 1
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2027-4-14",
+          "exactJD": 2461510.1224953174,
+          "exactJD2": 0,
+          "exactLng": 30,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 2
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2033-7-19",
+          "exactJD": 2463798.0666441703,
+          "exactJD2": 0,
+          "exactLng": 60,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 3
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2038-7-22",
+          "exactJD": 2465626.7427603467,
+          "exactJD2": 0,
+          "exactLng": 90,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 4
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2041-8-28",
+          "exactJD": 2466759.9266817146,
+          "exactJD2": 0,
+          "exactLng": 120,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 5
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2043-10-23",
+          "exactJD": 2467546.1999484533,
+          "exactJD2": 0,
+          "exactLng": 150,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 6
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2045-10-24",
+          "exactJD": 2468278.370286731,
+          "exactJD2": 0,
+          "exactLng": 180,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 7
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2047-10-22",
+          "exactJD": 2469005.5976252416,
+          "exactJD2": 0,
+          "exactLng": 210,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 8
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2049-11-9",
+          "exactJD": 2469754.921820489,
+          "exactJD2": 0,
+          "exactLng": 240,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 9
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2052-1-16",
+          "exactJD": 2470553.428325657,
+          "exactJD2": 0,
+          "exactLng": 270,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 10
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2055-4-3",
+          "exactJD": 2471725.957788493,
+          "exactJD2": 0,
+          "exactLng": 300,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 11
+        },
+        {
+          "aspectAngle": 0,
+          "eventType": 1,
+          "exactDate1": "2061-2-27",
+          "exactJD": 2473882.987200597,
+          "exactJD2": 0,
+          "exactLng": 330,
+          "exactLng2": 0,
+          "objectId1": 15,
+          "objectId2": 12
+        }
+      ]
+    }
+  },
+  "verifiedMovement": {
+    "version": "astroapp-chiron.v1",
+    "retrogradeStation": {
+      "before": {
+        "at": "2026-08-03T20:10:00.000Z",
+        "lng": 30.86685018350685,
+        "speed": 7.348535113577512e-08
+      },
+      "after": {
+        "at": "2026-08-03T20:11:00.000Z",
+        "lng": 30.86685018333193,
+        "speed": -5.32420293526045e-07
+      },
+      "at": "2026-08-03T20:10:30.000Z"
+    },
+    "directStation": {
+      "before": {
+        "at": "2027-01-06T11:00:00.000Z",
+        "lng": 26.264567193688002,
+        "speed": -5.585950085792792e-07
+      },
+      "after": {
+        "at": "2027-01-06T11:01:00.000Z",
+        "lng": 26.264567193517664,
+        "speed": 1.1499232865572363e-07
+      },
+      "at": "2027-01-06T11:00:30.000Z"
+    },
+    "movement": {
+      "crossesSignBoundary": true,
+      "crossingSign": "Aries",
+      "crossingAt": "2026-09-18T01:53:15.003Z",
+      "directSign": "Aries",
+      "directAt": "2027-01-06T11:00:30.000Z",
+      "nextSign": "Taurus",
+      "nextSignAt": "2027-04-14T14:56:23.595Z",
+      "source": "AstroApp ingress events; stations derived from AstroApp speed samples (one-minute brackets)",
+      "calculationVersion": "astroapp-chiron.v1"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+// GENE KEYS INSIGHT PROMPT
+async function generateGeneKeysInsights(userId: string, chartData: any): Promise<string> {
+  return {
+    "model": "claude-sonnet-4-20250514",
+    "max_tokens": 3000,
+    "system": "You are the Gene Keys Contemplation Oracle, providing transformational insights through the Shadow→Gift→Siddhi journey that Richard Rudd teaches. You reveal how each Gene Key expresses in daily life as unconscious patterns (shadows), conscious gifts, and transcendent states (siddhis). Your insights focus on the contemplative journey of transforming limitation into liberation through authentic self-expression, meaningful relationships, and spiritual development. These are evolutionary potentials that unfold through conscious awareness and contemplation.",
+    "messages": [
+      {
+        "role": "user",
+        "content": `GENE KEYS HOLOGENETIC PROFILE:
+Life's Work: ${chartData.lifeWork.gate}.${chartData.lifeWork.line} - Shadow: ${chartData.lifeWork.shadow}, Gift: ${chartData.lifeWork.gift}, Siddhi: ${chartData.lifeWork.siddhi}
+Evolution: ${chartData.evolution.gate}.${chartData.evolution.line} - Shadow: ${chartData.evolution.shadow}, Gift: ${chartData.evolution.gift}, Siddhi: ${chartData.evolution.siddhi}
+Radiance: ${chartData.radiance.gate}.${chartData.radiance.line} - Shadow: ${chartData.radiance.shadow}, Gift: ${chartData.radiance.gift}, Siddhi: ${chartData.radiance.siddhi}
+Purpose: ${chartData.purpose.gate}.${chartData.purpose.line} - Shadow: ${chartData.purpose.shadow}, Gift: ${chartData.purpose.gift}, Siddhi: ${chartData.purpose.siddhi}
+IQ: ${chartData.iq.gate}.${chartData.iq.line} - Shadow: ${chartData.iq.shadow}, Gift: ${chartData.iq.gift}, Siddhi: ${chartData.iq.siddhi}
+EQ: ${chartData.eq.gate}.${chartData.eq.line} - Shadow: ${chartData.eq.shadow}, Gift: ${chartData.eq.gift}, Siddhi: ${chartData.eq.siddhi}
+SQ: ${chartData.sq.gate}.${chartData.sq.line} - Shadow: ${chartData.sq.shadow}, Gift: ${chartData.sq.gift}, Siddhi: ${chartData.sq.siddhi}
+Vocation: ${chartData.vocation.gate}.${chartData.vocation.line} - Shadow: ${chartData.vocation.shadow}, Gift: ${chartData.vocation.gift}, Siddhi: ${chartData.vocation.siddhi}
+Culture: ${chartData.culture.gate}.${chartData.culture.line} - Shadow: ${chartData.culture.shadow}, Gift: ${chartData.culture.gift}, Siddhi: ${chartData.culture.siddhi}
+Attraction: ${chartData.attraction.gate}.${chartData.attraction.line} - Shadow: ${chartData.attraction.shadow}, Gift: ${chartData.attraction.gift}, Siddhi: ${chartData.attraction.siddhi}
+Pearl: ${chartData.pearl.gate}.${chartData.pearl.line} - Shadow: ${chartData.pearl.shadow}, Gift: ${chartData.pearl.gift}, Siddhi: ${chartData.pearl.siddhi}
+Creativity: ${chartData.creativity.gate}.${chartData.creativity.line} - Shadow: ${chartData.creativity.shadow}, Gift: ${chartData.creativity.gift}, Siddhi: ${chartData.creativity.siddhi}
+Relating: ${chartData.relating.gate}.${chartData.relating.line} - Shadow: ${chartData.relating.shadow}, Gift: ${chartData.relating.gift}, Siddhi: ${chartData.relating.siddhi}
+Stability: ${chartData.stability.gate}.${chartData.stability.line} - Shadow: ${chartData.stability.shadow}, Gift: ${chartData.stability.gift}, Siddhi: ${chartData.stability.siddhi}
+
+TASK: Generate comprehensive Gene Keys sphere insights (2-3 sentences per sphere) focused on the contemplative journey from shadow to gift to siddhi. These are transformational potentials that unfold through conscious awareness and contemplation.
+
+CONTEMPLATIVE FOCUS AREAS:
+- How shadows show up as unconscious patterns in daily life and relationships
+- The gifts that emerge when shadows are embraced and transformed through awareness
+- How siddhis express as transcendent states of consciousness and service
+- The contemplative journey of transforming limitation into liberation
+- Practical ways each frequency expresses in authentic self-expression
+- Relationship patterns and how each Gene Key affects connection with others
+- Spiritual development themes and evolutionary potentials
+
+REQUIREMENTS:
+- 2-3 substantive sentences per sphere (400-600 characters each)
+- Present-tense, contemplative language describing the transformation journey
+- Focus on Shadow→Gift→Siddhi progression and how it shows up practically
+- Include both challenges and transcendent potentials in empowering language
+- Explain how each Gene Key expresses in relationships and daily life
+- No timing, no predictions - these are evolutionary potentials through awareness
+- Rich, contemplative insights that serve as meditation and self-inquiry tools
+
+LANGUAGE PATTERNS:
+- "Your [sphere] transforms [shadow] into [gift] through [contemplative process]. In relationships, this [pattern]. When embodied as [siddhi], you [transcendent expression]."
+- "You naturally [shadow behavior], but awareness reveals [gift potential]. Others experience your [gift] as [impact], while your [siddhi] [transcendent service]."
+- "This Gene Key teaches you [lesson] through [shadow challenge], developing [gift capacity] that ultimately flowers into [siddhi expression]."
+
+AVOID CORPORATE LANGUAGE:
+❌ systematizing, optimizing, managing, strategic positioning, leveraging
+✅ transforming, contemplating, embodying, radiating, flowering, awakening, surrendering
+
+OUTPUT STRUCTURE:
+{
+  "genius_sequence": {
+    "life_work": "2-3 sentences about your life purpose, shadow patterns, gift emergence, and siddhi embodiment",
+    "evolution": "2-3 sentences about your evolutionary journey, wisdom development, and consciousness expansion",
+    "radiance": "2-3 sentences about your authentic expression, perseverance through challenges, and honor embodiment",
+    "purpose": "2-3 sentences about your soul's calling, liberation themes, and service to collective awakening"
+  },
+  "love_sequence": {
+    "iq": "2-3 sentences about emotional intelligence, social harmony, and grace in relationships",
+    "eq": "2-3 sentences about emotional mastery, competence development, and abundant relating",
+    "sq": "2-3 sentences about spiritual intelligence, power refinement, and majesty embodiment"
+  },
+  "prosperity_sequence": {
+    "vocation": "2-3 sentences about calling alignment, integrity in service, and harmonious contribution",
+    "culture": "2-3 sentences about visionary gifts, idealism grounding, and illuminating collective potential",
+    "attraction": "2-3 sentences about magnetic sensitivity, healthy connection, and sacrificial love",
+    "pearl": "2-3 sentences about wisdom through struggle, celebration of life, and honor through perseverance"
+  },
+  "star_pearl": {
+    "creativity": "2-3 sentences about the person's Creativity gate and line, tracing its supplied Shadow, Gift, and Siddhi",
+    "relating": "2-3 sentences about the person's Relating gate and line, tracing its supplied Shadow, Gift, and Siddhi",
+    "stability": "2-3 sentences about the person's Stability gate and line, tracing its supplied Shadow, Gift, and Siddhi"
+  }
+}
+
+IMPORT MAPPING:
+- Keep the source name `star_pearl` in generated output.
+- Store its seven ordered spheres in the existing database field `harmonySequence`.
+- Order: Brand, Creativity, Pearl, Culture, Stability, Vocation, Relating.
+
+Generate rich, contemplative insights that honor the depth of Gene Keys wisdom and serve as transformational reference points for consciousness evolution and authentic living.`
+      }
+    ]
+  };
+}

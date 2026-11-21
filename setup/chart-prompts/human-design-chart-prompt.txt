@@ -1,0 +1,96 @@
+
+// HUMAN DESIGN INSIGHT PROMPT
+async function generateHumanDesignInsights(userId: string, chartData: any): Promise<string> {
+  return {
+    "model": "claude-sonnet-4-20250514",
+    "max_tokens": 3000,
+    "system": "You are the Human Design Mechanics Oracle, providing life-practical insights through understanding your energetic design and decision-making mechanics. You reveal how Type, Strategy, Authority, and Definition create your unique way of operating authentically in the world. Your insights focus on energy management, decision-making patterns, and relationship dynamics that serve sustainable success and authentic self-expression. These are mechanical patterns for living according to your design rather than conditioning.",
+    "messages": [
+      {
+        "role": "user",
+        "content": `HUMAN DESIGN CHART DATA:
+Type: ${chartData.type}
+Strategy: ${chartData.strategy}
+Authority: ${chartData.authority}
+Definition: ${chartData.definition}
+Profile: ${chartData.profile}
+Incarnation Cross: ${chartData.incarnationCross}
+Not-Self Theme: ${chartData.notSelfTheme}
+Signature: ${chartData.signature}
+
+DEFINED CENTERS: ${chartData.definedCenters.join(', ')}
+UNDEFINED CENTERS: ${chartData.undefinedCenters.join(', ')}
+DEFINED CHANNELS: ${chartData.definedChannels.join(', ')}
+DEFINED GATES: ${chartData.definedGates.join(', ')}
+
+CENTER DETAILS:
+Head: ${chartData.centers.head} - ${chartData.centers.head === 'defined' ? 'Consistent mental pressure and inspiration' : 'Open to mental pressure and questions from others'}
+Ajna: ${chartData.centers.ajna} - ${chartData.centers.ajna === 'defined' ? 'Fixed way of processing and conceptualizing' : 'Flexible mental processing, takes in different perspectives'}
+Throat: ${chartData.centers.throat} - ${chartData.centers.throat === 'defined' ? 'Consistent expression and manifestation' : 'Inconsistent but powerful expression when connected'}
+G Center: ${chartData.centers.g_center} - ${chartData.centers.g_center === 'defined' ? 'Fixed identity and direction' : 'Flexible identity, seeks direction through others'}
+Heart: ${chartData.centers.heart} - ${chartData.centers.heart === 'defined' ? 'Consistent willpower and self-worth' : 'Inconsistent willpower, proves worth through others'}
+Spleen: ${chartData.centers.spleen} - ${chartData.centers.spleen === 'defined' ? 'Consistent intuitive awareness and survival instincts' : 'Inconsistent but amplified intuitive awareness'}
+Sacral: ${chartData.centers.sacral} - ${chartData.centers.sacral === 'defined' ? 'Consistent life force and response capacity' : 'No consistent life force energy'}
+Solar Plexus: ${chartData.centers.solar_plexus} - ${chartData.centers.solar_plexus === 'defined' ? 'Consistent emotional wave and authority' : 'Takes in and amplifies emotions from others'}
+Root: ${chartData.centers.root} - ${chartData.centers.root === 'defined' ? 'Consistent pressure and drive' : 'Inconsistent but amplified pressure from others'}
+
+TASK: Generate comprehensive Human Design insights (2-3 sentences per component) focused on energy mechanics, decision-making patterns, and authentic self-expression. These are practical patterns for living according to your design rather than social conditioning.
+
+MECHANICAL FOCUS AREAS:
+- How your Type and Strategy create sustainable energy and correct action
+- Your Authority's decision-making process and how to trust it over mental reasoning
+- Energy center mechanics and how defined/undefined centers operate differently
+- Relationship dynamics based on your energetic design and openness patterns
+- Profile themes and how your life unfolds according to your archetypal role
+- Definition patterns and how energy flows (or doesn't) within your system
+- Not-Self recognition and Signature experiences when living correctly
+
+REQUIREMENTS:
+- 2-3 substantive sentences per component (400-600 characters each)
+- Present-tense, mechanical language describing how your design operates
+- Focus on energy management, decision-making, and relationship patterns
+- Include both gifts and challenges of each aspect in practical terms
+- Explain how to work WITH your design rather than against it
+- No timing, no predictions - these are mechanical patterns for authentic living
+- Rich, practical insights that serve as operational guidelines for life decisions
+
+LANGUAGE PATTERNS:
+- "Your [component] operates by [mechanism]. In relationships, this [pattern]. When you [correct behavior], you experience [result]."
+- "You naturally [behavior] when [situation]. Others experience your [energy] as [impression], while you [internal experience]."
+- "Your [center/channel] [mechanical function], creating [capacity] while teaching you [life lesson]."
+
+AVOID CORPORATE LANGUAGE:
+❌ systematizing, optimizing, leveraging, strategic positioning, managing outcomes
+✅ responding, expressing, connecting, experimenting, surrendering, trusting, following
+
+OUTPUT STRUCTURE:
+{
+  "core_foundation": {
+    "type_strategy": "2-3 sentences about how your Type operates and Strategy creates correct action",
+    "authority": "2-3 sentences about your decision-making mechanism and trusting inner guidance",
+    "profile": "2-3 sentences about your life theme, role, and how your archetype unfolds",
+    "definition": "2-3 sentences about energy flow patterns and connection needs"
+  },
+  "energy_centers": {
+    "head": "2-3 sentences about mental pressure patterns and inspiration flow",
+    "ajna": "2-3 sentences about mental processing and conceptualization patterns",
+    "throat": "2-3 sentences about expression and manifestation capacity",
+    "g_center": "2-3 sentences about identity, direction, and love patterns",
+    "heart": "2-3 sentences about willpower, self-worth, and material world interaction",
+    "spleen": "2-3 sentences about intuitive awareness and survival instincts",
+    "sacral": "2-3 sentences about life force energy and response capacity",
+    "solar_plexus": "2-3 sentences about emotional patterns and decision-making timing",
+    "root": "2-3 sentences about pressure, stress, and action patterns"
+  },
+  "additional_insights": {
+    "incarnation_cross": "2-3 sentences about your life purpose theme and contribution to collective",
+    "not_self_theme": "2-3 sentences about off-track patterns and how to recognize conditioning",
+    "signature": "2-3 sentences about on-track experiences and authentic living indicators"
+  }
+}
+
+Generate rich, mechanical insights that honor Human Design's practical wisdom and serve as operational guidelines for authentic living and sustainable success.`
+      }
+    ]
+  };
+}`

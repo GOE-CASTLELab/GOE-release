@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(210 25% 7.8431%);
+  --card: hsl(180 6.6667% 97.0588%);
+  --card-foreground: hsl(210 25% 7.8431%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(210 25% 7.8431%);
+  --primary: hsl(203.8863 88.2845% 53.1373%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(210 25% 7.8431%);
+  --secondary-foreground: hsl(0 0% 100%);
+  --muted: hsl(240 1.9608% 90%);
+  --muted-foreground: hsl(210 25% 7.8431%);
+  --accent: hsl(211.5789 51.3514% 92.7451%);
+  --accent-foreground: hsl(203.8863 88.2845% 53.1373%);
+  --destructive: hsl(356.3033 90.5579% 54.3137%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(201.4286 30.4348% 90.9804%);
+  --input: hsl(200 23.0769% 97.4510%);
+  --ring: hsl(202.8169 89.1213% 53.1373%);
+  --chart-1: hsl(203.8863 88.2845% 53.1373%);
+  --chart-2: hsl(159.7826 100% 36.0784%);
+  --chart-3: hsl(42.0290 92.8251% 56.2745%);
+  --chart-4: hsl(147.1429 78.5047% 41.9608%);
+  --chart-5: hsl(341.4894 75.2000% 50.9804%);
+  --sidebar: hsl(180 6.6667% 97.0588%);
+  --sidebar-foreground: hsl(210 25% 7.8431%);
+  --sidebar-primary: hsl(203.8863 88.2845% 53.1373%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(211.5789 51.3514% 92.7451%);
+  --sidebar-accent-foreground: hsl(203.8863 88.2845% 53.1373%);
+  --sidebar-border: hsl(205.0000 25.0000% 90.5882%);
+  --sidebar-ring: hsl(202.8169 89.1213% 53.1373%);
+  --font-sans: Open Sans, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 1.3rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 1px 2px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 1px 2px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 2px 4px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 4px 6px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 8px 10px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+/* Consistent Button Design System */
+@layer components {
+  /* Sophisticated Button System - Based on Menstrual Cycle Design */
+  
+  /* Standard action buttons (Period Started/Extend Cycle/Period Ended style) */
+  .btn-standard {
+    @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-300 shadow-sm transition-all duration-200 tracking-wide;
+  }
+  
+  /* GOE buttons with darker hover like you requested */
+  .btn-goe {
+    @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-400 shadow-sm transition-all duration-200 tracking-wide disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  /* Send buttons for chat */
+  .btn-send {
+    @apply px-3 py-3 bg-gray-200 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-300 shadow-sm transition-all duration-200 tracking-wide disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  /* Refresh buttons */
+  .btn-refresh {
+    @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-300 shadow-sm transition-all duration-200 tracking-wide flex items-center gap-2;
+  }
+  
+  /* Icon-only buttons */
+  .btn-icon {
+    @apply p-2 text-gray-400 hover:text-gray-600 transition-colors flex items-center justify-center;
+  }
+  
+  /* Close buttons */
+  .btn-close {
+    @apply p-2 text-gray-400 hover:text-gray-600 transition-colors;
+  }
+  
+  /* Modal close buttons positioned absolutely */
+  .btn-close-modal {
+    @apply absolute top-4 right-4 p-2 text-gray-400 hover:text-gray-600 transition-colors;
+  }
+}
+
+/* Mobile-Responsive Utilities */
+@layer utilities {
+  /* Mobile Typography Scale - scales down on small screens */
+  .mobile-text-scale {
+    @apply text-sm md:text-base;
+  }
+  
+  .mobile-text-xs {
+    @apply text-xs md:text-sm;
+  }
+  
+  .mobile-heading-scale {
+    @apply text-base md:text-lg;
+  }
+  
+  /* Mobile Spacing Tokens */
+  .mobile-section-padding {
+    @apply p-3 md:p-4;
+  }
+  
+  .mobile-card-padding {
+    @apply p-3 md:p-6;
+  }
+  
+  .mobile-gap-sm {
+    @apply gap-2 md:gap-3;
+  }
+  
+  .mobile-gap-md {
+    @apply gap-3 md:gap-4;
+  }
+  
+  /* Mobile Layout Helpers */
+  .mobile-stack {
+    @apply flex flex-col space-y-3 md:space-y-4;
+  }
+  
+  .mobile-center-text {
+    @apply text-center;
+  }
+  
+  /* Mobile Modal Body - ensures proper text sizing and centering */
+  .mobile-modal-content {
+    @apply text-sm md:text-base leading-relaxed;
+  }
+  
+  /* Mobile Tab Bar - uniform sizing */
+  .mobile-tab-button {
+    @apply px-4 py-2 md:px-6 md:py-2.5 text-sm md:text-base rounded-xl transition-all duration-200 h-[60px] md:h-auto flex items-center justify-center;
+  }
+  
+  /* Aspect ratio lock for squares */
+  .mobile-square {
+    @apply aspect-square;
+  }
+  
+  /* Hide scrollbars while maintaining scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+  }
+}
+
+.dark {
+  --background: hsl(0 0% 0%);
+  --foreground: hsl(200 6.6667% 91.1765%);
+  --card: hsl(228 9.8039% 10%);
+  --card-foreground: hsl(0 0% 85.0980%);
+  --popover: hsl(0 0% 0%);
+  --popover-foreground: hsl(200 6.6667% 91.1765%);
+  --primary: hsl(203.7736 87.6033% 52.5490%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(195.0000 15.3846% 94.9020%);
+  --secondary-foreground: hsl(210 25% 7.8431%);
+  --muted: hsl(0 0% 9.4118%);
+  --muted-foreground: hsl(210 3.3898% 46.2745%);
+  --accent: hsl(205.7143 70% 7.8431%);
+  --accent-foreground: hsl(203.7736 87.6033% 52.5490%);
+  --destructive: hsl(356.3033 90.5579% 54.3137%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(210 5.2632% 14.9020%);
+  --input: hsl(207.6923 27.6596% 18.4314%);
+  --ring: hsl(202.8169 89.1213% 53.1373%);
+  --chart-1: hsl(203.8863 88.2845% 53.1373%);
+  --chart-2: hsl(159.7826 100% 36.0784%);
+  --chart-3: hsl(42.0290 92.8251% 56.2745%);
+  --chart-4: hsl(147.1429 78.5047% 41.9608%);
+  --chart-5: hsl(341.4894 75.2000% 50.9804%);
+  --sidebar: hsl(228 9.8039% 10%);
+  --sidebar-foreground: hsl(0 0% 85.0980%);
+  --sidebar-primary: hsl(202.8169 89.1213% 53.1373%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(205.7143 70% 7.8431%);
+  --sidebar-accent-foreground: hsl(203.7736 87.6033% 52.5490%);
+  --sidebar-border: hsl(205.7143 15.7895% 26.0784%);
+  --sidebar-ring: hsl(202.8169 89.1213% 53.1373%);
+  --font-sans: Open Sans, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 1.3rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 1px 2px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 1px 2px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 2px 4px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 4px 6px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 8px 10px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* GOE Glass System */
+.goe-glass {
+  background: rgba(255,255,255,0.85);
+  border: 1px solid rgba(255,255,255,0.85);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08), inset 0 1.5px 0 rgba(255,255,255,1), inset 0 -0.5px 0 rgba(0,0,0,0.06);
+}
+.goe-glass-inner {
+  background: rgba(255,255,255,0.55);
+  border: 0.5px solid rgba(255,255,255,0.85);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.95), 0 2px 8px rgba(0,0,0,0.04);
+}
+.goe-glass-inner-purple {
+  background: rgba(240,220,255,0.52);
+  border: 0.5px solid rgba(255,255,255,0.85);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.95), 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* GOE pop-up mobile standard — single source of truth.
+   Desktop/tablet (>=768px) is untouched; every rule is phone-only.
+   ONE shared contract governs every orb pop-up: .goe-popup-read on the panel,
+   .goe-popup-stack on every two-column grid (read+action grids AND the
+   paired-text comparison grids). */
+@media (max-width: 767px) {
+  /* Every two-column pop-up grid collapses to one full-width column and drops
+     the vertical divider + side padding so columns stack cleanly. */
+  .goe-popup-stack {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+  .goe-popup-stack > * {
+    border-right-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Grids alternate left(odd)/right(even) children. Reorder so the whole left
+     column stacks before the whole right column instead of interleaving rows.
+     Desktop keeps source order (no `order`), so its layout is unchanged. */
+  .goe-popup-stack > *:nth-child(odd) {
+    order: 0;
+  }
+  .goe-popup-stack > *:nth-child(even) {
+    order: 1;
+  }
+  /* Breathing room for read prose across every pop-up archetype. */
+  .goe-popup-read p {
+    line-height: 1.6;
+  }
+  /* Slightly larger body prose so read text is comfortable on phones.
+     Scoped to the text-sm body size so micro-labels (text-xs/[10px]/[11px])
+     keep their authored hierarchy. */
+  .goe-popup-read p.text-sm {
+    font-size: 0.95rem;
+  }
+  /* Comparison grids: tighten the lines within each block
+     and add a clear divider before the second block, so the two stacked blocks
+     read as a comparison instead of one flat list. Order/grouping unchanged. */
+  .goe-popup-compare {
+    gap: 0.4rem;
+  }
+  .goe-popup-compare > *:nth-child(2) {
+    margin-top: 0.7rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}

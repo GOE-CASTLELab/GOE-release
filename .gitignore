@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Local debris — never commit
+cookies.txt
+test_videoask_webhook.json
+
+# Secrets — never commit real env files (the template .env.example is tracked)
+.env
+.env.*
+!.env.example
+ops-local/

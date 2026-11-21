@@ -1,0 +1,34 @@
+// Copy this file to <sourceId>.js, replace every example value, then import and
+// register the adapter in ../adapterRegistry.js.
+
+export const exampleHrvAdapter = {
+  // Stable storage id: lowercase snake_case.
+  id: 'example_watch',
+  label: 'Example Watch',
+  uiKind: 'external',
+
+  // Declare only capabilities this implementation actually provides.
+  capabilities: {
+    spot: true,
+    continuous: false,
+    dailyImport: true,
+  },
+
+  // Availability must reflect the live browser/bridge state.
+  isAvailable: () => true,
+  unavailableReason: () => 'Example Watch is not connected.',
+
+  // Return GOE's internal reading contract. Never return vendor payloads directly.
+  async capture({ signal } = {}) {
+    if (signal?.aborted) throw new DOMException('Reading cancelled', 'AbortError');
+
+    const vendorReading = await readFromYourBridge();
+    return {
+      rmssd: vendorReading.rmssd,
+      bpm: vendorReading.bpm ?? null,
+      intervals: vendorReading.intervals ?? [],
+      quality: vendorReading.quality ?? null,
+      capturedAt: vendorReading.capturedAt,
+    };
+  },
+};
